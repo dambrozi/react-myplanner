@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(20, 136, 202, 0.767)
+}
+
+.container button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: var(--color-yellow-2);
+    color: var(--color-white-1);
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+}
+
+.container button:hover {
+    opacity: 0.9;
+}
+

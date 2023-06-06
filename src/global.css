@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color-white-1: #F6F6F6;
+  --color-white-2: #EBEBEC;
+  --color-gray-1: #545454;
+  --color-dark-1: #000000;
+  --color-dark-2: #02021A;
+  --color-pink-1: #FF4D8D;
+  --color-pink-2: #C323A4;
+  --color-pink-3: #E61B7B;
+  --color-blue-1: #667FFF;
+  --color-blue-2: #98D2FF;
+  --color-blue-3: #1C0084;
+  --color-blue-4: #1A202C;
+  --color-purple-1: #611F95;
+  --color-purple-2: #510385;
+  --color-purple-3: #C24EFE;
+  --color-purple-4: #A487F5;
+  --color-yellow-1: #FFD57A;
+  --color-yellow-2: #F4B200;
+  --color-green-1: #286b8a79;
+  --color-orange-1: #EF7900;
+
+  /*color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  *-webkit-text-size-adjust: 100%;*/
+}
+
+
+body {
+  background-color: var(--color-white-2);
+  -webkit-font-smothing: antialiased;
+  width: 100%;
+  margin: 0;
+  
+  /*
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;*/
+}
+
+body, input, textarea, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/*button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}*/
